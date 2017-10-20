@@ -10,15 +10,21 @@
             "email": "fabien@symfony.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:keichinger/security-checker.git"
+        }
+    ],
     "require": {
-        "php": ">=5.3.9",
-        "symfony/dependency-injection": "~2.3|~3.0",
-        "symfony/config": "~2.3|~3.0",
-        "symfony/filesystem": "~2.3|~3.0",
-        "symfony/http-kernel": "~2.3|~3.0",
-        "symfony/class-loader": "~2.3|~3.0",
-        "symfony/process": "~2.3|~3.0",
-        "sensiolabs/security-checker": "~3.0|~4.0"
+        "php": "^7.1",
+        "symfony/dependency-injection": "^4.0.0-BETA1",
+        "symfony/config": "^4.0.0-BETA1",
+        "symfony/filesystem": "^4.0.0-BETA1",
+        "symfony/http-kernel": "^4.0.0-BETA1",
+        "symfony/class-loader": "^3.4.0-BETA1",
+        "symfony/process": "^4.0.0-BETA1",
+        "sensiolabs/security-checker": "dev-master#360721f77cbdab9ca3f64e586524d6f64f9bef12"
     },
     "autoload": {
         "psr-4": { "Sensio\\Bundle\\DistributionBundle\\": "" }
